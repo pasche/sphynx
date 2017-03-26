@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: discovery-service
+  cloud:
+    config:
+      failFast: true
+      uri: http://${CONFIG_HOST:localhost}:${CONFIG_PORT:8888}
