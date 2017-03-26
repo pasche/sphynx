@@ -1,0 +1,1 @@
+include ':user-service',':edge-service',':discovery-service',':config-service'
